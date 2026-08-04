@@ -4,6 +4,12 @@ An OCR pipeline for extracting structured information from Egyptian National ID 
 
 ---
 
+# Acknowledgements
+
+The **ID card detection model** (`detect_id_card.pt`) used to locate and crop the ID card from the background is based on the work from:
+
+**Forked from:** NASO7Y/OCR_Egyptian_ID
+
 ## Project Overview
 
 This project automatically extracts information from Egyptian National ID cards through the following pipeline:
